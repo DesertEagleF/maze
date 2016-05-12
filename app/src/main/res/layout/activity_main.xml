@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context="com.deserteaglefe.maze.MainActivity">
+
+    <ImageView
+        android:id="@+id/maze"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/maze"/>
+
+    <ImageView
+        android:id="@+id/ball"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:src="@drawable/ball"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
