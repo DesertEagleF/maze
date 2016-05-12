@@ -21,10 +21,6 @@ import java.io.InputStream;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, SensorEventListener {
     private static final int mBlockCountHorizontal = 31;
     private static final int mBlockCountVertical = 41;
-    private static final int LEFT = 0;
-    private static final int RIGHT = 1;
-    private static final int UP = 2;
-    private static final int DOWN = 3;
     private int mBallSize;
     private ImageView mMaze;
     private ImageView mBall;
